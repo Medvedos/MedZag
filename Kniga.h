@@ -56,5 +56,12 @@ public:
 	@return успешность выполнения действия */
 	bool changePrice(int *newPrice);
 
+/** \brief Изменяет жанр
+
+	Перед изменением проверяет формат значения
+	@param newGenre новый жанр
+	@return успешность выполнения действия */
+	bool changeGenre(int *newGenre);
+
 };
 
